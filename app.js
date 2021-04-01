@@ -1,9 +1,10 @@
-var c = confirm('lets pay a game');
+alert ('Hello');
+var c = confirm('lets play a game');
 
 if (c == true) {
     var age = prompt ('enter your age');
 } else {
-    alert ('then see next time');
+    alert ('then, see next time');
 }
 
 if (age >= 35) {
@@ -11,5 +12,5 @@ if (age >= 35) {
 } else if (age < 35) {
     document.write ('group2');
 } else {
-    document.write ('pleas enter a number');
+    document.write ('please enter a number');
 }
