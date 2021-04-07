@@ -21,6 +21,10 @@ body {
     background-color: rgba(255, 204, 41, 0.70);
 }
 
+.topTextCont:hover {
+    background-color: rgba(245, 134, 52, .6);
+}
+
 .topText {
     font-size: 30px;
 }
